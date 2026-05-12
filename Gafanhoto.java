@@ -32,6 +32,12 @@ public class Gafanhoto extends Person{
     }
 
 
+    @Override
+    public String toString() {
+        return "Gafanhoto [login=" + login + super.toString() + ", totWatched=" + totWatched + "]";
+    }
+
+
     
 
 }

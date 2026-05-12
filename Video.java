@@ -17,17 +17,17 @@ public class Video implements VideoActions{
 
     @Override
     public void like() {
-        // TODO Auto-generated method stub
+        this.likes ++;
         
     }
     @Override
     public void pause() {
-        // TODO Auto-generated method stub
+        this.reproducing = false;
         
     }
     @Override
     public void play() {
-        // TODO Auto-generated method stub
+        this.reproducing = true;
         
     }
     public String getTitle() {
