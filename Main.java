@@ -13,5 +13,12 @@ public class Main {
         g[1] = new Gafanhoto("Creuza", 55, "F", "creu55");
 
         System.out.println(g[0].toString());
+
+        Visualisation vis = new Visualisation(g[0], v[2]);
+        System.out.println(vis.toString());
+
+        Visualisation vis1 = new Visualisation(g[0], v[1]);
+        System.out.println(vis1.toString());
+
     }
 }
