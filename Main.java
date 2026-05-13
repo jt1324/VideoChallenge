@@ -16,9 +16,11 @@ public class Main {
 
         Visualisation vis = new Visualisation(g[0], v[2]);
         System.out.println(vis.toString());
+        vis.review();
 
         Visualisation vis1 = new Visualisation(g[0], v[1]);
         System.out.println(vis1.toString());
+        vis1.review(95.0);
 
     }
 }
